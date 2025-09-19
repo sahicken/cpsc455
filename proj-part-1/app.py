@@ -1,5 +1,5 @@
-from flask import Flask, render_template
-from flask_socketio import SocketIO, emit, disconnect
+from flask import Flask, render_template # type: ignore
+from flask_socketio import SocketIO, emit, disconnect # type: ignore
 import os
 
 app = Flask(__name__)
